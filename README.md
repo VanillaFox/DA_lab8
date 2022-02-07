@@ -5,9 +5,8 @@
 ### Задача ###
 Бычкам дают пищевые добавки, чтобы ускорить их рост. Каждая добавка содержит некоторые из N действующих веществ. Соотношенияколичеств веществ в добавках
 могут отличаться. Воздействие добавки определяется как
-<img src="https://render.githubusercontent.com/render/math?math=c_1a_1 + c_2 a_2 +···+c_N a_N">, где
-<img src="https://render.githubusercontent.com/render/math?math=a_i"> количество <img src="https://render.githubusercontent.com/render/math?math=i">-го вещества в добавке,
-<img src="https://render.githubusercontent.com/render/math?math=c_i"> — неизвестный коэффициент,
+<img src="https://render.githubusercontent.com/render/math?math=\prod_{i=1}^N c_i a_i">, где
+<img src="https://render.githubusercontent.com/render/math?math=a_i"> количество <img src="https://render.githubusercontent.com/render/math?math=i">-го вещества в добавке, <img src="https://render.githubusercontent.com/render/math?math=c_i"> — неизвестный коэффициент,
 связанный с веществом и не зависящий от добавки. Чтобы найти неизвестные коэффициенты <img src="https://render.githubusercontent.com/render/math?math=c_i">,
 Биолог может измерить воздействие любой добавки, использовав один
 её мешок. Известна цена мешка каждой из <img src="https://render.githubusercontent.com/render/math?math=M (M ≥ N )"> различных добавок.
